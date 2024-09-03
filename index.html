@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./main.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gupter:wght@400;500;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+
+    <title >Lista de Tarefas</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="./Imagens/logoLista.png" alt="Logo de uma lista" title="Logo de lista"/>
+            <h1>Lista de Tarefas</h1>
+            <nav class="menu">
+                <div class="bolabranca"></div>
+                <div class="bolalaranja"></div>
+                <div class="bolaamarela"></div>
+            </nav>
+        </header>
+        <main>
+        <button type="button" class="fechar" id="btn-inicial">Não adicionar -</button>
+        <form>
+            <input type="text" id="input-tarefa" placeholder="Insira a sua tarefa ..." maxlength="500"/>
+            <button type="submit" id="btn-criar">Criar Tarefa</button>
+        </form>
+        </main>
+        <footer>
+            <ul class="tarefas">
+                <!-- <li ><input type="checkbox" title="Tarefa finalizada" id="tarefa-finalizada" class="tarefaFinalizada"/><label for="tarefa-finalizada" >Colocar a comida para o cachorro</label></li>
+                <li ><input type="checkbox" title="Tarefa finalizada" id="tarefa-finalizada1" class="tarefaFinalizada"/><label for="tarefa-finalizada1" >Lavar a louça da pia</label></li> -->
+              </ul>
+            <p>
+                &copy; Ebac 2024 - Todos os Direitos Reservados
+            </p>
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
