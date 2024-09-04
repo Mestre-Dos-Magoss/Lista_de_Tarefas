@@ -15,6 +15,8 @@ let geradorDeId=0;
 
   if($('#input-tarefa').val()){
     geradorDeId++;
+    // <img src="Imagens/tarefaFinalizada.png" alt="logo de tarefa finalizada" class="check"/>
+    //                                   || tentei adicionala dentro da li, mas não funcionou
       const inputTarefaNaLinha = $(`<li><label for="${geradorDeId}" id="${$(geradorDeId)}" class="babalu"><p>${mostraNaPagina.innerHtml = $('#input-tarefa').val()}</p></label></li>`);
 
   inputTarefaNaLinha.appendTo('ul');
