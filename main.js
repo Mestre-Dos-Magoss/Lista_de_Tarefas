@@ -15,7 +15,7 @@ let geradorDeId=0;
 
   if($('#input-tarefa').val()){
     geradorDeId++;
-      const inputTarefaNaLinha = $(`<li><img src="Imagens/tarefaFinalizada.png" alt="logo de tarefa finalizada" class="check"/><label for="${geradorDeId}" id="${$(geradorDeId)}" class="babalu"><p>${mostraNaPagina.innerHtml = $('#input-tarefa').val()}</p></label></li>`);
+      const inputTarefaNaLinha = $(`<li><label for="${geradorDeId}" id="${$(geradorDeId)}" class="babalu"><p>${mostraNaPagina.innerHtml = $('#input-tarefa').val()}</p></label></li>`);
 
   inputTarefaNaLinha.appendTo('ul');
   $('#input-tarefa').val('');
